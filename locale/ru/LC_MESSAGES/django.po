@@ -130,7 +130,7 @@ msgstr "Заголовок"
 
 #: coderedcms/blocks/content_blocks.py:51
 msgid "Subtitle"
-msgstr "Субтитры"
+msgstr "Подзаголовок"
 
 #: coderedcms/blocks/content_blocks.py:55
 #: coderedcms/models/snippet_models.py:577

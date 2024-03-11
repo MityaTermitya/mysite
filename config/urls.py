@@ -1,19 +1,16 @@
 # ruff: noqa
-from django.conf import settings
-from django.conf.urls.static import static
-from django.contrib import admin
-from django.urls import include
-from django.urls import path
-from django.views import defaults as default_views
-from django.views.generic import TemplateView
-from drf_spectacular.views import SpectacularAPIView
-from drf_spectacular.views import SpectacularSwaggerView
-from rest_framework.authtoken.views import obtain_auth_token
-from wagtail.documents import urls as wagtaildocs_urls
-
 from coderedcms import admin_urls as crx_admin_urls
 from coderedcms import search_urls as crx_search_urls
 from coderedcms import urls as crx_urls
+from django.conf import settings
+from django.conf.urls.static import static
+from django.contrib import admin
+from django.urls import include, path
+from django.views import defaults as default_views
+from django.views.generic import TemplateView
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+from rest_framework.authtoken.views import obtain_auth_token
+from wagtail.documents import urls as wagtaildocs_urls
 
 urlpatterns = [
     path(

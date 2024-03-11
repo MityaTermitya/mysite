@@ -2,19 +2,20 @@
 Create or customize your page models here.
 """
 
-from modelcluster.fields import ParentalKey
-
 from coderedcms.forms import CoderedFormField
-from coderedcms.models import CoderedArticleIndexPage
-from coderedcms.models import CoderedArticlePage
-from coderedcms.models import CoderedEmail
-from coderedcms.models import CoderedEventIndexPage
-from coderedcms.models import CoderedEventOccurrence
-from coderedcms.models import CoderedEventPage
-from coderedcms.models import CoderedFormPage
-from coderedcms.models import CoderedLocationIndexPage
-from coderedcms.models import CoderedLocationPage
-from coderedcms.models import CoderedWebPage
+from coderedcms.models import (
+    CoderedArticleIndexPage,
+    CoderedArticlePage,
+    CoderedEmail,
+    CoderedEventIndexPage,
+    CoderedEventOccurrence,
+    CoderedEventPage,
+    CoderedFormPage,
+    CoderedLocationIndexPage,
+    CoderedLocationPage,
+    CoderedWebPage,
+)
+from modelcluster.fields import ParentalKey
 
 
 class ArticlePage(CoderedArticlePage):
