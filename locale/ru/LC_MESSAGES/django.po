@@ -1,0 +1,2281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-03 23:19+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: coderedcms/blocks/__init__.py:77 coderedcms/blocks/__init__.py:111
+#: coderedcms/blocks/__init__.py:133 coderedcms/blocks/__init__.py:151
+msgid "HTML"
+msgstr "HTML"
+
+#: coderedcms/blocks/__init__.py:157 coderedcms/blocks/__init__.py:158
+#: coderedcms/blocks/__init__.py:159 coderedcms/blocks/__init__.py:160
+#: coderedcms/blocks/__init__.py:161 coderedcms/blocks/__init__.py:162
+#: coderedcms/blocks/__init__.py:163 coderedcms/blocks/__init__.py:164
+#: coderedcms/blocks/__init__.py:165 coderedcms/blocks/__init__.py:166
+#: coderedcms/blocks/__init__.py:167 coderedcms/blocks/__init__.py:168
+#: coderedcms/wagtail_flexible_forms/blocks.py:257
+#: coderedcms/wagtail_flexible_forms/blocks.py:258
+#: coderedcms/wagtail_flexible_forms/blocks.py:259
+#: coderedcms/wagtail_flexible_forms/blocks.py:260
+#: coderedcms/wagtail_flexible_forms/blocks.py:261
+#: coderedcms/wagtail_flexible_forms/blocks.py:262
+#: coderedcms/wagtail_flexible_forms/blocks.py:263
+#: coderedcms/wagtail_flexible_forms/blocks.py:264
+#: coderedcms/wagtail_flexible_forms/blocks.py:265
+#: coderedcms/wagtail_flexible_forms/blocks.py:266
+#: coderedcms/wagtail_flexible_forms/blocks.py:267
+#: coderedcms/wagtail_flexible_forms/blocks.py:268
+msgid "Fields"
+msgstr "Поля"
+
+#: coderedcms/blocks/base_blocks.py:121
+msgid "Button Title"
+msgstr "Заголовок кнопки"
+
+#: coderedcms/blocks/base_blocks.py:127
+msgid "Button Style"
+msgstr "Стиль кнопки"
+
+#: coderedcms/blocks/base_blocks.py:133 coderedcms/models/page_models.py:1314
+msgid "Button Size"
+msgstr "Размер кнопки"
+
+#: coderedcms/blocks/base_blocks.py:149 coderedcms/models/snippet_models.py:314
+#: coderedcms/models/snippet_models.py:360
+msgid "Custom CSS Class"
+msgstr "Пользовательский класс CSS"
+
+#: coderedcms/blocks/base_blocks.py:154 coderedcms/models/snippet_models.py:112
+#: coderedcms/models/snippet_models.py:279
+#: coderedcms/models/snippet_models.py:319
+#: coderedcms/models/snippet_models.py:365
+#: coderedcms/models/snippet_models.py:472
+msgid "Custom ID"
+msgstr "Пользовательский идентификатор"
+
+#: coderedcms/blocks/base_blocks.py:161
+msgid "Advanced Settings"
+msgstr "Дополнительные параметры"
+
+#: coderedcms/blocks/base_blocks.py:174 coderedcms/models/page_models.py:266
+msgid "Template"
+msgstr "Шаблон"
+
+#: coderedcms/blocks/base_blocks.py:190
+msgid "Tracking Event Category"
+msgstr "Категории отслеживаемых событий"
+
+#: coderedcms/blocks/base_blocks.py:195
+msgid "Tracking Event Label"
+msgstr "Метка события"
+
+#: coderedcms/blocks/base_blocks.py:208
+msgid "Column Breakpoint"
+msgstr "Точка останова столбца"
+
+#: coderedcms/blocks/base_blocks.py:210
+msgid ""
+"Screen size at which the column will expand horizontally or stack vertically."
+msgstr ""
+"Колонка будет горизонтально развернута или сложена вертикально по размеру "
+"экрана."
+
+#: coderedcms/blocks/base_blocks.py:276 coderedcms/models/page_models.py:403
+#: coderedcms/models/snippet_models.py:369
+#: coderedcms/models/snippet_models.py:499
+msgid "Content"
+msgstr "Контент"
+
+#: coderedcms/blocks/base_blocks.py:310
+msgid "Page link"
+msgstr "Ссылка на страницу"
+
+#: coderedcms/blocks/base_blocks.py:314 coderedcms/blocks/html_blocks.py:49
+msgid "Document link"
+msgstr "Ссылка на документ"
+
+#: coderedcms/blocks/base_blocks.py:319
+msgid "Other link"
+msgstr "Другие ссылки"
+
+#: coderedcms/blocks/content_blocks.py:41
+#: coderedcms/blocks/content_blocks.py:155
+#: coderedcms/blocks/content_blocks.py:261 coderedcms/blocks/html_blocks.py:183
+#: coderedcms/blocks/html_blocks.py:189 coderedcms/blocks/html_blocks.py:198
+#: coderedcms/models/snippet_models.py:96
+msgid "Image"
+msgstr "Образ"
+
+#: coderedcms/blocks/content_blocks.py:46
+msgid "Title"
+msgstr "Заголовок"
+
+#: coderedcms/blocks/content_blocks.py:51
+msgid "Subtitle"
+msgstr "Субтитры"
+
+#: coderedcms/blocks/content_blocks.py:55
+#: coderedcms/models/snippet_models.py:577
+msgid "Body"
+msgstr "Тело"
+
+#: coderedcms/blocks/content_blocks.py:61
+msgid "Links"
+msgstr "Ссылки"
+
+#: coderedcms/blocks/content_blocks.py:67
+msgid "Card"
+msgstr "Карточка"
+
+#: coderedcms/blocks/content_blocks.py:79
+#: coderedcms/models/snippet_models.py:36
+#: coderedcms/models/snippet_models.py:88
+msgid "Carousel"
+msgstr "Карусель"
+
+#: coderedcms/blocks/content_blocks.py:92
+#: coderedcms/models/snippet_models.py:225
+msgid "Film Strip"
+msgstr "Кинолента"
+
+#: coderedcms/blocks/content_blocks.py:104
+msgid "Image Collection"
+msgstr "Коллекция изображений"
+
+#: coderedcms/blocks/content_blocks.py:110
+msgid "Image Gallery"
+msgstr "Фотогалерея"
+
+#: coderedcms/blocks/content_blocks.py:121
+msgid "Modal heading"
+msgstr "Модульный заголовок"
+
+#: coderedcms/blocks/content_blocks.py:125
+msgid "Modal content"
+msgstr "Модульный контент"
+
+#: coderedcms/blocks/content_blocks.py:132
+msgid "Simple Text"
+msgstr "Простой текст"
+
+#: coderedcms/blocks/content_blocks.py:138
+msgid "Modal footer"
+msgstr "Footer шаблона"
+
+#: coderedcms/blocks/content_blocks.py:144
+msgid "Modal"
+msgstr "Модель"
+
+#: coderedcms/blocks/content_blocks.py:151
+msgid "Display text"
+msgstr "Показать текст"
+
+#: coderedcms/blocks/content_blocks.py:166 coderedcms/blocks/html_blocks.py:108
+#: coderedcms/forms.py:29 coderedcms/wagtail_flexible_forms/blocks.py:63
+msgid "URL"
+msgstr "URL"
+
+#: coderedcms/blocks/content_blocks.py:171
+msgid "External Link"
+msgstr "Внешние ссылки"
+
+#: coderedcms/blocks/content_blocks.py:180
+#: coderedcms/templates/coderedcms/includes/pagination.html:12
+msgid "Page"
+msgstr "Страница"
+
+#: coderedcms/blocks/content_blocks.py:185
+msgid "Page Link"
+msgstr "Ссылка на страницу"
+
+#: coderedcms/blocks/content_blocks.py:194
+msgid "Document"
+msgstr "Документ"
+
+#: coderedcms/blocks/content_blocks.py:199
+msgid "Document Link"
+msgstr "Ссылка на документ"
+
+#: coderedcms/blocks/content_blocks.py:214
+msgid "Sub-links"
+msgstr "Дополнительные ссылки"
+
+#: coderedcms/blocks/content_blocks.py:224
+msgid "External link with sub-links"
+msgstr "Внешние ссылки с дополнительными ссылками"
+
+#: coderedcms/blocks/content_blocks.py:235
+msgid "Show child pages"
+msgstr "Показать подкатегорию"
+
+#: coderedcms/blocks/content_blocks.py:237
+msgid "Automatically show a link to the Page’s child pages as a dropdown menu."
+msgstr "Автоматически отображается ссылка на страницу в выпадающем меню."
+
+#: coderedcms/blocks/content_blocks.py:242
+msgid "Page link with sub-links"
+msgstr "Ссылки на страницы с дополнительными ссылками"
+
+#: coderedcms/blocks/content_blocks.py:251
+msgid "Document link with sub-links"
+msgstr "Ссылки на документы с дополнительными ссылками"
+
+#: coderedcms/blocks/content_blocks.py:266
+#: coderedcms/models/snippet_models.py:41
+#: coderedcms/models/snippet_models.py:149
+#: coderedcms/models/snippet_models.py:197
+#: coderedcms/models/snippet_models.py:230
+#: coderedcms/models/snippet_models.py:309
+#: coderedcms/models/snippet_models.py:355
+#: coderedcms/models/snippet_models.py:402
+#: coderedcms/models/snippet_models.py:427
+#: coderedcms/models/snippet_models.py:455
+#: coderedcms/models/snippet_models.py:495
+#: coderedcms/wagtail_flexible_forms/blocks.py:276
+msgid "Name"
+msgstr "Имя"
+
+#: coderedcms/blocks/content_blocks.py:271
+msgid "Description"
+msgstr "Описание"
+
+#: coderedcms/blocks/content_blocks.py:275
+msgid "Price"
+msgstr "Цены"
+
+#: coderedcms/blocks/content_blocks.py:276
+msgid "Any text here. Include currency sign if desired."
+msgstr ""
+"Здесь может быть любой текст. При необходимости, включая денежные знаки."
+
+#: coderedcms/blocks/content_blocks.py:282
+msgid "Price List Item"
+msgstr "Список элементов прайс-листа"
+
+#: coderedcms/blocks/content_blocks.py:293
+msgid "Heading"
+msgstr "Заголовок"
+
+#: coderedcms/blocks/content_blocks.py:299
+msgid "Items"
+msgstr "Элементы"
+
+#: coderedcms/blocks/content_blocks.py:305
+msgid "Price List"
+msgstr "Прайс-лист"
+
+#: coderedcms/blocks/content_blocks.py:317
+msgid "Show content walls on children pages?"
+msgstr "Показывать ли стену содержимого на дочерних страницах?"
+
+#: coderedcms/blocks/content_blocks.py:319
+msgid ""
+"If this is checked, the content walls will be displayed on all children "
+"pages of this page."
+msgstr ""
+"Если этот параметр установлен, то стена содержимого будет отображаться на "
+"всех дочерних страницах этой страницы."
+
+#: coderedcms/blocks/content_blocks.py:326
+#: coderedcms/models/snippet_models.py:490
+#: coderedcms/models/snippet_models.py:522
+msgid "Content Wall"
+msgstr "Стена контента"
+
+#: coderedcms/blocks/content_blocks.py:339
+#: coderedcms/models/snippet_models.py:397
+#: coderedcms/models/snippet_models.py:398
+msgid "Reusable Content"
+msgstr "Переиспользуемый контент"
+
+#: coderedcms/blocks/html_blocks.py:38
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: coderedcms/blocks/html_blocks.py:57
+msgid "Download"
+msgstr "Скачать"
+
+#: coderedcms/blocks/html_blocks.py:68
+msgid "Search query"
+msgstr "Поисковый запрос"
+
+#: coderedcms/blocks/html_blocks.py:70
+msgid "Address or search term used to find your location on the map."
+msgstr "Адрес или поисковое слово для поиска вашего местоположения на карте."
+
+#: coderedcms/blocks/html_blocks.py:76
+msgid "Map title"
+msgstr "Заголовок карты"
+
+#: coderedcms/blocks/html_blocks.py:77
+msgid "Map title for screen readers, ex: \"Map to Goodale Park\""
+msgstr "Заголовки карт для чтения с экрана, например: « Карта парка Goodale»"
+
+#: coderedcms/blocks/html_blocks.py:82
+msgid "Google place ID"
+msgstr "Идентификатор местоположения Google"
+
+#: coderedcms/blocks/html_blocks.py:83
+msgid "Requires API key to use place ID."
+msgstr "Ключ API необходим для использования идентификатора места."
+
+#: coderedcms/blocks/html_blocks.py:88
+msgid "Map zoom level"
+msgstr "Уровень масштабирования карты"
+
+#: coderedcms/blocks/html_blocks.py:90 coderedcms/models/page_models.py:2170
+msgid ""
+"Requires API key to use zoom. 1: World, 5: Landmass/continent, 10: City, 15: "
+"Streets, 20: Buildings"
+msgstr ""
+"Для масштабирования требуются API - клавиши. 1: Мир, 5: "
+"Достопримечательности / Континент, 10: Город, 15: Улицы, 20: Архитектура"
+
+#: coderedcms/blocks/html_blocks.py:98
+msgid "Google Map"
+msgstr "Карты Google"
+
+#: coderedcms/blocks/html_blocks.py:110
+msgid "Link to a YouTube/Vimeo video, tweet, facebook post, etc."
+msgstr ""
+"Ссылки на видео YouTube / Vimeo, Twitter, посты в Facebook и многое другое."
+
+#: coderedcms/blocks/html_blocks.py:117
+msgid "Embed Media"
+msgstr "Встроенные медиа"
+
+#: coderedcms/blocks/html_blocks.py:127 coderedcms/blocks/html_blocks.py:143
+#: coderedcms/blocks/html_blocks.py:159 coderedcms/forms.py:23
+msgid "Text"
+msgstr "Текст"
+
+#: coderedcms/blocks/html_blocks.py:133
+msgid "Heading 1"
+msgstr "Заголовок 1"
+
+#: coderedcms/blocks/html_blocks.py:149
+msgid "Heading 2"
+msgstr "Заголовок 2"
+
+#: coderedcms/blocks/html_blocks.py:165
+msgid "Heading 3"
+msgstr "Заголовок 3"
+
+#: coderedcms/blocks/html_blocks.py:203
+msgid "Alternate text to show if the image doesn’t load"
+msgstr "Если изображение не загружено, отображается альтернативный текст"
+
+#: coderedcms/blocks/html_blocks.py:209
+msgid "Image Link"
+msgstr "Ссылка на изображение"
+
+#: coderedcms/blocks/html_blocks.py:220
+msgid "Parent page"
+msgstr "Родительская страница"
+
+#: coderedcms/blocks/html_blocks.py:222
+msgid ""
+"Show a preview of pages that are children of the selected page. Uses "
+"ordering specified in the page’s LAYOUT tab."
+msgstr ""
+"Предварительный просмотр подстраницы выбранной страницы. Использовать "
+"порядок, указанный на вкладке LAYOUT страницы."
+
+#: coderedcms/blocks/html_blocks.py:228
+msgid "Classified as"
+msgstr "Классификация по:"
+
+#: coderedcms/blocks/html_blocks.py:229
+msgid "Only show pages that are classified with this term."
+msgstr ""
+"Показывать только страницы, на которых используется классификация этого "
+"термина."
+
+#: coderedcms/blocks/html_blocks.py:235
+msgid "Show body preview"
+msgstr "Показать предварительный просмотр"
+
+#: coderedcms/blocks/html_blocks.py:239
+msgid "Number of pages to show"
+msgstr "Количество страниц"
+
+#: coderedcms/blocks/html_blocks.py:245
+msgid "Latest Pages"
+msgstr "Последняя страница"
+
+#: coderedcms/blocks/html_blocks.py:287
+msgid "Page to preview"
+msgstr "Предварительный просмотр страницы"
+
+#: coderedcms/blocks/html_blocks.py:288
+msgid "Show a mini preview of the selected page."
+msgstr "Небольшой предварительный просмотр выбранной страницы."
+
+#: coderedcms/blocks/html_blocks.py:294
+msgid "Page Preview"
+msgstr "Предварительный просмотр страницы"
+
+#: coderedcms/blocks/html_blocks.py:305
+msgid "Quote Text"
+msgstr "Текст предложения"
+
+#: coderedcms/blocks/html_blocks.py:310 coderedcms/models/page_models.py:731
+msgid "Author"
+msgstr "Автор"
+
+#: coderedcms/blocks/html_blocks.py:316
+msgid "Quote"
+msgstr "Цитаты"
+
+#: coderedcms/blocks/layout_blocks.py:27
+msgid "Column size"
+msgstr "Размер столбца"
+
+#: coderedcms/blocks/layout_blocks.py:45 coderedcms/blocks/layout_blocks.py:64
+#: coderedcms/blocks/layout_blocks.py:81
+msgid "Full width"
+msgstr "Полная ширина"
+
+#: coderedcms/blocks/layout_blocks.py:51
+msgid "Responsive Grid Row"
+msgstr "Строка сетки откликов"
+
+#: coderedcms/blocks/layout_blocks.py:70
+msgid "Card Grid"
+msgstr "Карточная сетка"
+
+#: coderedcms/blocks/layout_blocks.py:85
+msgid "Parallax Effect"
+msgstr "Параллаксный эффект"
+
+#: coderedcms/blocks/layout_blocks.py:87
+msgid ""
+"Background images scroll slower than foreground images, creating an illusion "
+"of depth."
+msgstr ""
+"Фоновое изображение прокручивается медленнее, чем переднее, создавая иллюзию "
+"глубины."
+
+#: coderedcms/blocks/layout_blocks.py:94
+msgid "Tile background image"
+msgstr "Фоновое изображение с плоским покрытием"
+
+#: coderedcms/blocks/layout_blocks.py:99
+#: coderedcms/models/snippet_models.py:101
+#: coderedcms/models/snippet_models.py:262
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: coderedcms/blocks/layout_blocks.py:100
+#: coderedcms/blocks/layout_blocks.py:106
+#: coderedcms/models/snippet_models.py:102
+#: coderedcms/models/snippet_models.py:263
+#: coderedcms/models/snippet_models.py:269
+msgid "Hexadecimal, rgba, or CSS color notation (e.g. #ff0011)"
+msgstr ""
+"Шестнадцатеричное, RGBA или CSS цветовое представление (например, # ff0011)"
+
+#: coderedcms/blocks/layout_blocks.py:105
+#: coderedcms/models/snippet_models.py:268
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: coderedcms/blocks/stream_form_blocks.py:21
+msgid "Condition Trigger ID"
+msgstr "Идентификатор условного триггера"
+
+#: coderedcms/blocks/stream_form_blocks.py:23
+msgid ""
+"The \"Custom ID\" of another field that that will trigger this field to be "
+"shown/hidden."
+msgstr ""
+"Будет запущен \"пользовательский идентификатор\" другого поля, который "
+"отображается / скрывается в этом поле."
+
+#: coderedcms/blocks/stream_form_blocks.py:30
+msgid "Condition Trigger Value"
+msgstr "условное триггерное значение"
+
+#: coderedcms/blocks/stream_form_blocks.py:32
+msgid ""
+"The value of the field in \"Condition Trigger ID\" that will trigger this "
+"field to be shown."
+msgstr ""
+"Будет запускаться значение поля, отображающего идентификатор условного "
+"триггера в этом поле."
+
+#: coderedcms/blocks/stream_form_blocks.py:55
+msgid "Text or Email input"
+msgstr "Ввод текста или электронной почты"
+
+#: coderedcms/blocks/stream_form_blocks.py:63 coderedcms/forms.py:26
+msgid "Multi-line text"
+msgstr "Многострочный текст"
+
+#: coderedcms/blocks/stream_form_blocks.py:71
+msgid "Numbers only"
+msgstr "Только цифры"
+
+#: coderedcms/blocks/stream_form_blocks.py:79
+msgid "Single Checkbox"
+msgstr "Отдельные флажки"
+
+#: coderedcms/blocks/stream_form_blocks.py:87
+msgid "Radios"
+msgstr "Радио"
+
+#: coderedcms/blocks/stream_form_blocks.py:95
+msgid "Dropdown"
+msgstr "Раскрывающийся список"
+
+#: coderedcms/blocks/stream_form_blocks.py:103 coderedcms/forms.py:35
+msgid "Checkboxes"
+msgstr "Флажки"
+
+#: coderedcms/blocks/stream_form_blocks.py:111 coderedcms/forms.py:45
+msgid "Date"
+msgstr "Дата"
+
+#: coderedcms/blocks/stream_form_blocks.py:122 coderedcms/forms.py:46
+msgid "Time"
+msgstr "Время"
+
+#: coderedcms/blocks/stream_form_blocks.py:133
+msgid "Date and Time"
+msgstr "Дата и время"
+
+#: coderedcms/blocks/stream_form_blocks.py:144
+msgid "Image Upload"
+msgstr "Загрузка изображений"
+
+#: coderedcms/blocks/stream_form_blocks.py:152
+msgid "Secure File Upload"
+msgstr "Загрузить файл безопасности"
+
+#: coderedcms/forms.py:25
+msgid "Single line text"
+msgstr "Однострочный текст"
+
+#: coderedcms/forms.py:27 coderedcms/wagtail_flexible_forms/blocks.py:62
+msgid "Email"
+msgstr "Электронная почта"
+
+#: coderedcms/forms.py:28
+msgid "Number - only allows integers"
+msgstr "Цифры - Разрешается только целое число"
+
+#: coderedcms/forms.py:33 coderedcms/wagtail_flexible_forms/blocks.py:122
+msgid "Choice"
+msgstr "Выбор"
+
+#: coderedcms/forms.py:36
+msgid "Drop down"
+msgstr "Раскрывающийся список"
+
+#: coderedcms/forms.py:37 coderedcms/wagtail_flexible_forms/blocks.py:128
+msgid "Radio buttons"
+msgstr "Радио кнопка"
+
+#: coderedcms/forms.py:38
+msgid "Multiple select"
+msgstr "Множественный выбор"
+
+#: coderedcms/forms.py:39
+msgid "Single checkbox"
+msgstr "Отдельные флажки"
+
+#: coderedcms/forms.py:43
+msgid "Date & Time"
+msgstr "Дата и время"
+
+#: coderedcms/forms.py:47
+msgid "Date and time"
+msgstr "Дата и время"
+
+#: coderedcms/forms.py:51
+msgid "File Upload"
+msgstr "Файл загружен"
+
+#: coderedcms/forms.py:52
+msgid "Secure File - login required to access uploaded files"
+msgstr ""
+"Файлы безопасности - для доступа к загруженным файлам необходимо войти в "
+"систему"
+
+#: coderedcms/forms.py:55 coderedcms/wagtail_flexible_forms/blocks.py:269
+msgid "Other"
+msgstr "Другое"
+
+#: coderedcms/forms.py:56
+msgid "Hidden field"
+msgstr "Скрытое поле"
+
+#: coderedcms/forms.py:66 coderedcms/forms.py:67
+msgid "Submitted file is not allowed."
+msgstr "Отправленный файл не разрешен"
+
+#: coderedcms/forms.py:182
+msgid "field type"
+msgstr "Тип поля"
+
+#: coderedcms/forms.py:194 coderedcms/templates/coderedcms/pages/search.html:7
+#: coderedcms/templates/coderedcms/pages/search.html:14
+#: coderedcms/templates/coderedcms/pages/search.html:31
+#: coderedcms/templates/coderedcms/snippets/navbar.html:35
+msgid "Search"
+msgstr "Поиск"
+
+#: coderedcms/forms.py:200
+msgid "Page type"
+msgstr "Тип страницы"
+
+#: coderedcms/importexport.py:34
+msgid "File to import"
+msgstr "Файл для импорта"
+
+#: coderedcms/importexport.py:39
+msgid "Destination parent page"
+msgstr "Целевая родительская страница"
+
+#: coderedcms/importexport.py:40
+msgid "Imported pages will be created as children of this page."
+msgstr "Импортированная страница будет создана как дочерняя для этой страницы."
+
+#: coderedcms/models/integration_models.py:126
+msgid "List"
+msgstr "Список"
+
+#: coderedcms/models/page_models.py:123
+msgid "CodeRed Tag"
+msgstr "CodeRed Метка"
+
+#: coderedcms/models/page_models.py:137
+msgid "CodeRed Page"
+msgstr "CodeRed Страница"
+
+#: coderedcms/models/page_models.py:165
+msgid "Cover image"
+msgstr "Изображение обложки"
+
+#: coderedcms/models/page_models.py:183
+msgid "Default Ordering"
+msgstr "Сортировка по умолчанию"
+
+#: coderedcms/models/page_models.py:184
+msgid "Date first published, newest to oldest"
+msgstr "Дата первого выпуска, от последнего до самого старого"
+
+#: coderedcms/models/page_models.py:185
+msgid "Date first published, oldest to newest"
+msgstr "Дата первого выпуска с самого начала до последнего"
+
+#: coderedcms/models/page_models.py:186
+msgid "Date updated, newest to oldest"
+msgstr "Дата обновления, от последнего до самого старого"
+
+#: coderedcms/models/page_models.py:187
+msgid "Date updated, oldest to newest"
+msgstr "Дата обновления с самого начала до последнего"
+
+#: coderedcms/models/page_models.py:188
+msgid "Title, alphabetical"
+msgstr "Заголовки в алфавитном порядке"
+
+#: coderedcms/models/page_models.py:189
+msgid "Title, reverse alphabetical"
+msgstr "Заголовки в обратном алфавитном порядке"
+
+#: coderedcms/models/page_models.py:193
+msgid "Show list of child pages"
+msgstr "Показать список дочерних страниц"
+
+#: coderedcms/models/page_models.py:201
+msgid "Order child pages by classifier"
+msgstr "Сортировка дочерних страниц по классификаторам"
+
+#: coderedcms/models/page_models.py:203
+msgid ""
+"Child pages will first be sorted following the order of this classifier’s "
+"terms (from Snippets > Classifiers)."
+msgstr ""
+"Дочерние страницы будут сначала сортироваться в соответствии с порядком "
+"терминов классификатора (от Snippets > Classifiers)."
+
+#: coderedcms/models/page_models.py:212
+msgid "Order child pages by"
+msgstr "Сортировать дочерние страницы по"
+
+#: coderedcms/models/page_models.py:213
+msgid "Child pages will then be sorted by this attribute."
+msgstr "Дочерние страницы будут сортироваться по этому атрибуту."
+
+#: coderedcms/models/page_models.py:217
+msgid "Number per page"
+msgstr "Номер страницы"
+
+#: coderedcms/models/page_models.py:222
+msgid "Filter child pages by"
+msgstr "Фильтр дочерних страниц по"
+
+#: coderedcms/models/page_models.py:223
+msgid "Enable filtering child pages by these classifiers."
+msgstr "Включить фильтр дочерних страниц через эти классификаторы."
+
+#: coderedcms/models/page_models.py:239
+msgid "Show list of related pages"
+msgstr "Показать список соответствующих страниц"
+
+#: coderedcms/models/page_models.py:244
+msgid "Number of related pages to show"
+msgstr "Номера соответствующих страниц для показа"
+
+#: coderedcms/models/page_models.py:253
+msgid "Preferred related classifier term"
+msgstr "Предпочтительный соответствующий классификатор"
+
+#: coderedcms/models/page_models.py:255
+msgid ""
+"When getting related pages, pages with this term will be weighted over other "
+"classifier terms. By default, pages with the greatest number of classifiers "
+"in common are ranked highest."
+msgstr ""
+"При получении соответствующей страницы страница с этим термином будет "
+"взвешена выше других классификаторов. По умолчанию страницы с наибольшим "
+"количеством универсальных классификаторов имеют самый высокий рейтинг."
+
+#: coderedcms/models/page_models.py:285 coderedcms/models/snippet_models.py:138
+msgid "Classifiers"
+msgstr "Классификаторы"
+
+#: coderedcms/models/page_models.py:287
+msgid ""
+"Categorize and group pages together with classifiers. Used to organize and "
+"filter pages across the site."
+msgstr ""
+"Классификация и группирование страниц с помощью классификаторов. Для "
+"организации и скрининга страниц всего сайта."
+
+#: coderedcms/models/page_models.py:294
+msgid "Tags"
+msgstr "Метки"
+
+#: coderedcms/models/page_models.py:295
+msgid "Used to organize pages across the site."
+msgstr "Страницы для организации всего сайта."
+
+#: coderedcms/models/page_models.py:306 coderedcms/models/snippet_models.py:491
+msgid "Content Walls"
+msgstr "Стены контента"
+
+#: coderedcms/models/page_models.py:341
+msgid "Visual Design"
+msgstr "Визуальный дизайн"
+
+#: coderedcms/models/page_models.py:353
+msgid "Show Child Pages"
+msgstr "Показать дочерние страницы"
+
+#: coderedcms/models/page_models.py:361
+msgid "Related Pages"
+msgstr "Соответствующие страницы"
+
+#: coderedcms/models/page_models.py:405
+msgid "Classify"
+msgstr "Классификаторы"
+
+#: coderedcms/models/page_models.py:406
+msgid "Layout"
+msgstr "Макет"
+
+#: coderedcms/models/page_models.py:407 wagtailseo/models.py:579
+msgid "SEO"
+msgstr "SEO"
+
+#: coderedcms/models/page_models.py:409
+msgid "Settings"
+msgstr "Настройки"
+
+#: coderedcms/models/page_models.py:662
+msgid "CodeRed Web Page"
+msgstr "CodeRed Web страница"
+
+#: coderedcms/models/page_models.py:704
+msgid "CodeRed Article"
+msgstr "CodeRed Статьи"
+
+#: coderedcms/models/page_models.py:723
+msgid "Caption"
+msgstr "Описание"
+
+#: coderedcms/models/page_models.py:736
+msgid "Display author as"
+msgstr "Показать автора как"
+
+#: coderedcms/models/page_models.py:737
+msgid "Override how the author’s name displays on this article."
+msgstr "Укажите способ отображения имени автора в этой статье."
+
+#: coderedcms/models/page_models.py:742
+msgid "Display publish date"
+msgstr "Показать дату публикации"
+
+#: coderedcms/models/page_models.py:828
+msgid "Publication Info"
+msgstr "Информация о публикациях"
+
+#: coderedcms/models/page_models.py:839
+msgid "CodeRed Article Index Page"
+msgstr "CodeRed Индексная страница статей"
+
+#: coderedcms/models/page_models.py:853
+msgid "Show images"
+msgstr "Показать изображение"
+
+#: coderedcms/models/page_models.py:860
+msgid "Show author and date info"
+msgstr "Показать сведения об авторе и дате"
+
+#: coderedcms/models/page_models.py:864
+msgid "Show preview text"
+msgstr "Показать текст предварительного просмотра"
+
+#: coderedcms/models/page_models.py:875
+msgid "Child page display"
+msgstr "Показать дочерние страницы"
+
+#: coderedcms/models/page_models.py:882
+msgid "CodeRed Event"
+msgstr "CodeRed События"
+
+#: coderedcms/models/page_models.py:888
+msgid "The color that the event will use when displayed on a calendar."
+msgstr ""
+"Цвет, который будет использоваться при отображении событий в календаре."
+
+#: coderedcms/models/page_models.py:891 coderedcms/models/page_models.py:2012
+msgid "Address"
+msgstr "Адрес"
+
+#: coderedcms/models/page_models.py:898
+msgid "Event information"
+msgstr "Информация о событиях"
+
+#: coderedcms/models/page_models.py:903
+msgid "Dates and times"
+msgstr "Дата и время"
+
+#: coderedcms/models/page_models.py:1039
+msgid "Details"
+msgstr "Детали"
+
+#: coderedcms/models/page_models.py:1109
+msgid "CodeRed Event Index Page"
+msgstr "CodeRed Индексная страница событий "
+
+#: coderedcms/models/page_models.py:1113
+msgid "No calendar"
+msgstr "Нет календаря"
+
+#: coderedcms/models/page_models.py:1114
+msgid "Month"
+msgstr "Месяц"
+
+#: coderedcms/models/page_models.py:1115
+msgid "Week"
+msgstr "Неделя"
+
+#: coderedcms/models/page_models.py:1116
+msgid "Day"
+msgstr "День"
+
+#: coderedcms/models/page_models.py:1117
+msgid "List of events"
+msgstr "Список событий"
+
+#: coderedcms/models/page_models.py:1120
+msgid "Default"
+msgstr "По умолчанию"
+
+#: coderedcms/models/page_models.py:1121
+msgid "Solid rectangles"
+msgstr "Сплошной прямоугольник"
+
+#: coderedcms/models/page_models.py:1122
+msgid "Dots with labels"
+msgstr "Точка с меткой"
+
+#: coderedcms/models/page_models.py:1138 coderedcms/models/page_models.py:1156
+msgid "Calendar Style"
+msgstr "Стиль календаря"
+
+#: coderedcms/models/page_models.py:1139
+msgid "The default look of the calendar on this page."
+msgstr "Внешний вид календаря по умолчанию на этой странице."
+
+#: coderedcms/models/page_models.py:1146
+msgid "Event Style"
+msgstr "Стиль события"
+
+#: coderedcms/models/page_models.py:1147
+msgid "How events look on the calendar."
+msgstr "Внешний вид событий в календаре."
+
+#: coderedcms/models/page_models.py:1243
+msgid "CodeRed Event Occurrence"
+msgstr "CodeRed Возникновения событий"
+
+#: coderedcms/models/page_models.py:1258
+msgid "Email form submissions to"
+msgstr "Отправить форму по электронной почте"
+
+#: coderedcms/models/page_models.py:1260
+msgid ""
+"Optional - email form submissions to this address. Separate multiple "
+"addresses by comma."
+msgstr ""
+"Дополнительный - Отправьте форму на этот адрес по электронной почте. "
+"Разделите несколько адресов запятыми."
+
+#: coderedcms/models/page_models.py:1267
+msgid "Reply-to address"
+msgstr "Адрес ответа"
+
+#: coderedcms/models/page_models.py:1269
+msgid ""
+"Optional - to reply to the submitter, specify the email field here. For "
+"example, if a form field above is labeled \"Your Email\", enter: "
+"{{ your_email }}"
+msgstr ""
+"Вариант - Для ответа автору укажите поле электронной почты здесь. Например, "
+"если поле формы выше помечено как \"Ваша электронная почта\", введите: br. "
+"your email."
+
+#: coderedcms/models/page_models.py:1277
+#: coderedcms/models/snippet_models.py:575
+msgid "Subject"
+msgstr "Тема"
+
+#: coderedcms/models/page_models.py:1281
+msgid "Save form submissions"
+msgstr "Сохранить форму для представления"
+
+#: coderedcms/models/page_models.py:1283
+msgid "Submissions are saved to database and can be exported at any time."
+msgstr ""
+"Представленный контент сохраняется в базе данных и может быть экспортирован "
+"в любое время."
+
+#: coderedcms/models/page_models.py:1292 coderedcms/models/page_models.py:1606
+msgid "Thank you page"
+msgstr "Страница благодарности"
+
+#: coderedcms/models/page_models.py:1294
+msgid "The page users are redirected to after submitting the form."
+msgstr "После подачи формы пользователь перенаправляется на страницу."
+
+#: coderedcms/models/page_models.py:1299
+msgid "Submit"
+msgstr "Отправить"
+
+#: coderedcms/models/page_models.py:1300
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: coderedcms/models/page_models.py:1307
+msgid "Button style"
+msgstr "Стиль кнопки"
+
+#: coderedcms/models/page_models.py:1319
+msgid "Button CSS class"
+msgstr "CSS класс кнопки"
+
+#: coderedcms/models/page_models.py:1320
+msgid "Custom CSS class applied to the submit button."
+msgstr "Настройка класса CSS для кнопки передачи."
+
+#: coderedcms/models/page_models.py:1325
+msgid "Form CSS Class"
+msgstr "Класс формы CSS"
+
+#: coderedcms/models/page_models.py:1326
+msgid "Custom CSS class applied to <form> element."
+msgstr "Пользовательский класс CSS для элементов < form >."
+
+#: coderedcms/models/page_models.py:1331
+msgid "Form ID"
+msgstr "Идентификатор формы"
+
+#: coderedcms/models/page_models.py:1332
+msgid "Custom ID applied to <form> element."
+msgstr "Пользовательский идентификатор для элементов < form >."
+
+#: coderedcms/models/page_models.py:1337
+msgid "Form go live date/time"
+msgstr "Дата / время запуска формы"
+
+#: coderedcms/models/page_models.py:1338
+msgid "Date and time when the FORM goes live on the page."
+msgstr "Дата и время вступления формы в силу на странице."
+
+#: coderedcms/models/page_models.py:1343
+msgid "Form expiry date/time"
+msgstr "Дата / время истечения срока действия формы"
+
+#: coderedcms/models/page_models.py:1345
+msgid "Date and time when the FORM will no longer be available on the page."
+msgstr "Таблицы больше не будут появляться на странице с датой и временем."
+
+#: coderedcms/models/page_models.py:1350
+msgid "Spam Protection"
+msgstr "Защита от спама"
+
+#: coderedcms/models/page_models.py:1352
+msgid ""
+"When enabled, the CMS will filter out spam form submissions for this page."
+msgstr "После включения CMS отфильтрует подачу формы спама на этой странице."
+
+#: coderedcms/models/page_models.py:1367
+msgid "Form Settings"
+msgstr "Параметры формы"
+
+#: coderedcms/models/page_models.py:1376
+msgid "Form Submissions"
+msgstr "Представление формы"
+
+#: coderedcms/models/page_models.py:1391
+msgid "Form Scheduled Publishing"
+msgstr "Форма планируется опубликовать"
+
+#: coderedcms/models/page_models.py:1605
+msgid "Form"
+msgstr "Форма"
+
+#: coderedcms/models/page_models.py:1658
+msgid "There was an error while processing your submission.  Please try again."
+msgstr "Ошибка обработки вашего представления. Пожалуйста, попробуйте еще раз."
+
+#: coderedcms/models/page_models.py:1707
+msgid "CodeRed Form Page"
+msgstr "CodeRed Страница формы"
+
+#: coderedcms/models/page_models.py:1726 coderedcms/models/page_models.py:1961
+msgid "Confirmation Emails"
+msgstr "Подтверждение электронной почты"
+
+#: coderedcms/models/page_models.py:1755
+msgid "Submission date"
+msgstr "Дата представления"
+
+#: coderedcms/models/page_models.py:1791
+#: coderedcms/wagtail_flexible_forms/models.py:311
+msgid "Not submitted"
+msgstr "Не представлено"
+
+#: coderedcms/models/page_models.py:1792
+msgid "Complete"
+msgstr "Завершено"
+
+#: coderedcms/models/page_models.py:1793
+#: coderedcms/wagtail_flexible_forms/models.py:313
+msgid "Under consideration"
+msgstr "Рассматривается"
+
+#: coderedcms/models/page_models.py:1794
+#: coderedcms/wagtail_flexible_forms/models.py:314
+msgid "Approved"
+msgstr "Утвержденные"
+
+#: coderedcms/models/page_models.py:1795
+#: coderedcms/wagtail_flexible_forms/models.py:315
+msgid "Rejected"
+msgstr "Отказ"
+
+#: coderedcms/models/page_models.py:1945
+msgid "CodeRed Advanced Form Page"
+msgstr "CodeRed Страница расширенной формы"
+
+#: coderedcms/models/page_models.py:1999
+msgid "CodeRed Location"
+msgstr "CodeRed Местоположение"
+
+#: coderedcms/models/page_models.py:2014
+msgid "Latitude"
+msgstr "Широта"
+
+#: coderedcms/models/page_models.py:2017
+msgid "Longitude"
+msgstr "Долгота"
+
+#: coderedcms/models/page_models.py:2021
+msgid "Auto Update Latitude and Longitude"
+msgstr "Автоматическое обновление широты и долготы"
+
+#: coderedcms/models/page_models.py:2023
+msgid ""
+"If checked, automatically update the latitude and longitude when the address "
+"is updated."
+msgstr ""
+"Если выбран, широта и долгота автоматически обновляются при обновлении "
+"адреса."
+
+#: coderedcms/models/page_models.py:2030
+msgid "Map Title"
+msgstr "Заголовок карты"
+
+#: coderedcms/models/page_models.py:2032
+msgid "If this is filled out, this is the title that will be used on the map."
+msgstr ""
+"Если он заполнен, это заголовок, который будет использоваться на карте."
+
+#: coderedcms/models/page_models.py:2038
+msgid "Map Description"
+msgstr "Описание карты"
+
+#: coderedcms/models/page_models.py:2040
+msgid ""
+"If this is filled out, this is the description that will be used on the map."
+msgstr "Если он заполнен, это описание, которое будет использоваться на карте."
+
+#: coderedcms/models/page_models.py:2043
+msgid "Website"
+msgstr "Веб - сайт"
+
+#: coderedcms/models/page_models.py:2045
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: coderedcms/models/page_models.py:2060
+msgid "Map Layout"
+msgstr "Расположение карты"
+
+#: coderedcms/models/page_models.py:2071
+msgid "Location Settings"
+msgstr "Настройка местоположения"
+
+#: coderedcms/models/page_models.py:2144
+msgid "CodeRed Location Index Page"
+msgstr "CodeRed Страница расположения"
+
+#: coderedcms/models/page_models.py:2154
+msgid "The default latitude you want the map set to."
+msgstr "Установить широту карты по умолчанию."
+
+#: coderedcms/models/page_models.py:2160
+msgid "The default longitude you want the map set to."
+msgstr "Установить долготу карты по умолчанию."
+
+#: coderedcms/models/page_models.py:2182
+msgid "Map Display"
+msgstr "Показать на карте"
+
+#: coderedcms/models/snippet_models.py:37
+msgid "Carousels"
+msgstr "Карусели"
+
+#: coderedcms/models/snippet_models.py:45
+msgid "Show controls"
+msgstr "Показать элементы управления"
+
+#: coderedcms/models/snippet_models.py:47
+msgid ""
+"Shows arrows on the left and right of the carousel to advance next or "
+"previous slides."
+msgstr ""
+"Показывать стрелки слева и справа для продвижения следующего или предыдущего "
+"слайда."
+
+#: coderedcms/models/snippet_models.py:53
+msgid "Show indicators"
+msgstr "Показать индикатор"
+
+#: coderedcms/models/snippet_models.py:55
+msgid ""
+"Shows small indicators at the bottom of the carousel based on the number of "
+"slides."
+msgstr ""
+"Показывать небольшие индикаторы в нижней части ротора в зависимости от "
+"количества слайдов."
+
+#: coderedcms/models/snippet_models.py:62
+msgid "Slider"
+msgstr "Ползунок"
+
+#: coderedcms/models/snippet_models.py:69
+msgid "Slides"
+msgstr "Слайд"
+
+#: coderedcms/models/snippet_models.py:83
+msgid "Carousel Slide"
+msgstr "Слайд карусели"
+
+#: coderedcms/models/snippet_models.py:107
+#: coderedcms/models/snippet_models.py:274
+#: coderedcms/models/snippet_models.py:467
+msgid "Custom CSS class"
+msgstr "Пользовательский класс CSS"
+
+#: coderedcms/models/snippet_models.py:137
+#: coderedcms/models/snippet_models.py:187
+msgid "Classifier"
+msgstr "Классификатор"
+
+#: coderedcms/models/snippet_models.py:144
+#: coderedcms/models/snippet_models.py:192
+msgid "Slug"
+msgstr "Слаг"
+
+#: coderedcms/models/snippet_models.py:154
+#: coderedcms/models/snippet_models.py:182
+msgid "Classifier Terms"
+msgstr "Терминология классификатора"
+
+#: coderedcms/models/snippet_models.py:181
+msgid "Classifier Term"
+msgstr "Терминология классификатора"
+
+#: coderedcms/models/snippet_models.py:226
+msgid "Film Strips"
+msgstr "Киноленты"
+
+#: coderedcms/models/snippet_models.py:235
+#: coderedcms/models/snippet_models.py:437
+msgid "Panels"
+msgstr "Панели"
+
+#: coderedcms/models/snippet_models.py:244
+#: coderedcms/models/snippet_models.py:249
+msgid "Film Panel"
+msgstr "Фильм Панель"
+
+#: coderedcms/models/snippet_models.py:257
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: coderedcms/models/snippet_models.py:304
+msgid "Navigation Bar"
+msgstr "Панель навигации"
+
+#: coderedcms/models/snippet_models.py:305
+msgid "Navigation Bars"
+msgstr "Панели навигации"
+
+#: coderedcms/models/snippet_models.py:323
+msgid "Navigation links"
+msgstr "Навигационные ссылки"
+
+#: coderedcms/models/snippet_models.py:335
+#: coderedcms/models/snippet_models.py:381
+msgid "Attributes"
+msgstr "Свойства"
+
+#: coderedcms/models/snippet_models.py:351
+msgid "Footer"
+msgstr "Footer"
+
+#: coderedcms/models/snippet_models.py:406
+msgid "content"
+msgstr "Контент"
+
+#: coderedcms/models/snippet_models.py:422
+#: coderedcms/models/snippet_models.py:432
+#: coderedcms/models/snippet_models.py:450
+msgid "Accordion"
+msgstr "Аккордион"
+
+#: coderedcms/models/snippet_models.py:423
+msgid "Accordions"
+msgstr "Аккордионы"
+
+#: coderedcms/models/snippet_models.py:505
+msgid "Dismissible"
+msgstr "Неприемлемо"
+
+#: coderedcms/models/snippet_models.py:509
+msgid "Show once"
+msgstr "Показать однажды"
+
+#: coderedcms/models/snippet_models.py:511
+msgid ""
+"Do not show the content wall to the same user again after it has been closed."
+msgstr ""
+"После закрытия стены контента не показывайте стену контента одному и тому же "
+"пользователю снова."
+
+#: coderedcms/models/snippet_models.py:539
+msgid "CodeRed Email"
+msgstr "Электронная почта CodeRed"
+
+#: coderedcms/models/snippet_models.py:544
+msgid "To Addresses"
+msgstr "Адрес получателя"
+
+#: coderedcms/models/snippet_models.py:545
+#: coderedcms/models/snippet_models.py:560
+#: coderedcms/models/snippet_models.py:566
+#: coderedcms/models/snippet_models.py:572
+msgid "Separate multiple email addresses with commas."
+msgstr "Разделите несколько адресов электронной почты запятыми."
+
+#: coderedcms/models/snippet_models.py:550
+msgid "From Address"
+msgstr "Адрес отправителя"
+
+#: coderedcms/models/snippet_models.py:552
+msgid ""
+"For example: \"sender@example.com\" or \"Sender Name <sender@example."
+"com>\" (without quotes)."
+msgstr ""
+"Например sender@example.com \"или\" Имя отправителя \" sender@example.com > "
+"> (Без кавычек)."
+
+#: coderedcms/models/snippet_models.py:559
+msgid "Reply-To Address"
+msgstr "Адрес ответа"
+
+#: coderedcms/models/snippet_models.py:565
+msgid "CC"
+msgstr "СС"
+
+#: coderedcms/models/snippet_models.py:571
+msgid "BCC"
+msgstr "ВСС"
+
+#: coderedcms/models/snippet_models.py:589
+msgid "Email Message"
+msgstr "Электронная почта"
+
+#: coderedcms/models/wagtailsettings_models.py:32
+msgid "CRX Settings"
+msgstr "Параметры CRX"
+
+#: coderedcms/models/wagtailsettings_models.py:40
+msgid "Logo"
+msgstr "Логотип"
+
+#: coderedcms/models/wagtailsettings_models.py:41
+msgid "Brand logo used in the navbar and throughout the site"
+msgstr "Навигационные панели и логотипы, используемые на сайте в целом"
+
+#: coderedcms/models/wagtailsettings_models.py:49
+msgid "Favicon"
+msgstr "Фавикон"
+
+#: coderedcms/models/wagtailsettings_models.py:56
+msgid "Navbar color scheme"
+msgstr "Цветовая схема панели навигации"
+
+#: coderedcms/models/wagtailsettings_models.py:58
+msgid ""
+"Optimizes text and other navbar elements for use with light or dark "
+"backgrounds."
+msgstr ""
+"Оптимизация текста и других элементов навигационной панели для светлого или "
+"темного фона."
+
+#: coderedcms/models/wagtailsettings_models.py:66
+msgid "Navbar CSS class"
+msgstr "Навигационная панель класса CSS"
+
+#: coderedcms/models/wagtailsettings_models.py:68
+msgid ""
+"Custom classes applied to navbar e.g. \"bg-light\", \"bg-dark\", \"bg-"
+"primary\"."
+msgstr ""
+"Пользовательские классы, используемые в панели навигации, такие как \"bg "
+"light\", \"bg dark\" и \"bg primary\"."
+
+#: coderedcms/models/wagtailsettings_models.py:73
+msgid "Fixed navbar"
+msgstr "Фиксированная навигационная панель"
+
+#: coderedcms/models/wagtailsettings_models.py:75
+msgid "Fixed navbar will remain at the top of the page when scrolling."
+msgstr ""
+"Фиксированная навигационная панель будет оставаться в верхней части страницы "
+"при прокрутке."
+
+#: coderedcms/models/wagtailsettings_models.py:80
+msgid "Full width navbar contents"
+msgstr "Полная навигационная панель"
+
+#: coderedcms/models/wagtailsettings_models.py:81
+msgid "Content within the navbar will fill edge to edge."
+msgstr "Содержание панели навигации будет заполняться по сторонам."
+
+#: coderedcms/models/wagtailsettings_models.py:88
+msgid "Collapse navbar menu"
+msgstr "Меню Складная панель навигации"
+
+#: coderedcms/models/wagtailsettings_models.py:90
+msgid ""
+"Control on what screen sizes to show and collapse the navbar menu links."
+msgstr ""
+"Управление размером экрана для отображения и сложения ссылок в меню панели "
+"навигации."
+
+#: coderedcms/models/wagtailsettings_models.py:98
+msgid "Navbar format"
+msgstr "Формат панели навигации"
+
+#: coderedcms/models/wagtailsettings_models.py:102
+msgid "Search box"
+msgstr "Поиск"
+
+#: coderedcms/models/wagtailsettings_models.py:103
+msgid "Show search box in navbar"
+msgstr "Показывать поле поиска в панели навигации"
+
+#: coderedcms/models/wagtailsettings_models.py:110
+msgid "Theme variant"
+msgstr "Вариант темы"
+
+#: coderedcms/models/wagtailsettings_models.py:115
+msgid "From email address"
+msgstr "Адрес электронной почты отправителя"
+
+#: coderedcms/models/wagtailsettings_models.py:117
+msgid ""
+"The default email address this site appears to send from. For example: "
+"\"sender@example.com\" or \"Sender Name <sender@example.com>\" (without "
+"quotes)"
+msgstr ""
+"Этот сайт, похоже, отправляется с адреса электронной почты по умолчанию. "
+"Например sender@example.com \"или\" Имя отправителя \" sender@example.com > "
+"\"(Без кавычек)"
+
+#: coderedcms/models/wagtailsettings_models.py:124
+msgid "Number of results per page"
+msgstr "Количество результатов на странице"
+
+#: coderedcms/models/wagtailsettings_models.py:127
+msgid "Open all external links in new tab"
+msgstr "Открыть все внешние ссылки в новой вкладке"
+
+#: coderedcms/models/wagtailsettings_models.py:132
+msgid "Google Maps API Key"
+msgstr "Ключ API Google Maps"
+
+#: coderedcms/models/wagtailsettings_models.py:133
+msgid "The API Key used for Google Maps."
+msgstr "Ключ API для Google Maps."
+
+#: coderedcms/models/wagtailsettings_models.py:138
+msgid "Mailchimp API Key"
+msgstr "Ключ Mailchimp API"
+
+#: coderedcms/models/wagtailsettings_models.py:139
+msgid "The API Key used for Mailchimp."
+msgstr "Ключ API для Mailchimp."
+
+#: coderedcms/models/wagtailsettings_models.py:148
+msgid "Branding"
+msgstr "Бренд"
+
+#: coderedcms/models/wagtailsettings_models.py:160
+msgid "Site Navbar Layout"
+msgstr "Настройка панели навигации сайта"
+
+#: coderedcms/models/wagtailsettings_models.py:166
+msgid "Theming"
+msgstr "Темы"
+
+#: coderedcms/models/wagtailsettings_models.py:170
+msgid "Choose one or more navbars for your site."
+msgstr "Выберите одну или несколько навигационных панелей для вашего сайта."
+
+#: coderedcms/models/wagtailsettings_models.py:171
+#: coderedcms/models/wagtailsettings_models.py:231
+msgid "Site Navbars"
+msgstr "Панель навигации по сайту"
+
+#: coderedcms/models/wagtailsettings_models.py:175
+msgid "Choose one or more footers for your site."
+msgstr "Выберите один или несколько footer для вашего сайта."
+
+#: coderedcms/models/wagtailsettings_models.py:176
+#: coderedcms/models/wagtailsettings_models.py:247
+msgid "Site Footers"
+msgstr "Footer сайта"
+
+#: coderedcms/models/wagtailsettings_models.py:184
+msgid "General"
+msgstr "Основные"
+
+#: coderedcms/models/wagtailsettings_models.py:191
+msgid "API Keys"
+msgstr "Ключ API"
+
+#: coderedcms/models/wagtailsettings_models.py:266
+msgid "Tracking"
+msgstr "Отслеживание"
+
+#: coderedcms/models/wagtailsettings_models.py:271
+msgid "G Tracking ID"
+msgstr "Идентификатор отслеживания G"
+
+#: coderedcms/models/wagtailsettings_models.py:272
+msgid "Your Google Analytics 4 tracking ID (begins with \"G-\")"
+msgstr ""
+"Ваш идентификатор отслеживания Google Analytics 4 (начинается с « G - »)"
+
+#: coderedcms/models/wagtailsettings_models.py:276
+msgid "Track button clicks"
+msgstr "Нажмите кнопку отслеживания"
+
+#: coderedcms/models/wagtailsettings_models.py:278
+msgid ""
+"Track all button clicks using Google Analytics event tracking. Event "
+"tracking details can be specified in each button’s advanced settings options."
+msgstr ""
+"Используйте Google Analytics для отслеживания событий, чтобы отслеживать все "
+"нажатия кнопки. Подробности отслеживания событий могут быть указаны в "
+"параметрах расширенной настройки каждой кнопки."
+
+#: coderedcms/models/wagtailsettings_models.py:286
+msgid "Google Tag Manager ID"
+msgstr "Идентификатор менеджера меток Google"
+
+#: coderedcms/models/wagtailsettings_models.py:287
+msgid "Begins with \"GTM-\""
+msgstr "Начнем с « GTM - »"
+
+#: coderedcms/models/wagtailsettings_models.py:292
+msgid "<head> tracking scripts"
+msgstr "Сценарий отслеживания < head >"
+
+#: coderedcms/models/wagtailsettings_models.py:293
+msgid "Add tracking scripts between the <head> tags."
+msgstr "Добавить сценарий отслеживания между тегами < head >."
+
+#: coderedcms/models/wagtailsettings_models.py:298
+msgid "<body> tracking scripts"
+msgstr "< body > Скрипты отслеживания"
+
+#: coderedcms/models/wagtailsettings_models.py:299
+msgid "Add tracking scripts toward closing <body> tag."
+msgstr "Добавить сценарий отслеживания, чтобы закрыть метку < body >."
+
+#: coderedcms/models/wagtailsettings_models.py:304
+msgid "Know your tracking"
+msgstr "Узнайте о вашем отслеживании."
+
+#: coderedcms/models/wagtailsettings_models.py:306
+msgid ""
+"<h2>Which tracking IDs do I need?</h2><p>Before adding tracking to your "
+"site, <a href=\"https://docs.coderedcorp.com/wagtail-crx/how_to/"
+"add_tracking_scripts.html\" target=\"_blank\">read about the difference "
+"between G, UA, GTM, and other tracking IDs</a>.</p>"
+msgstr ""
+"< h2 > Какие идентификаторы отслеживания мне нужны < / h2 > < p > Прежде чем "
+"добавить отслеживание на ваш сайт, < a href = \" https://docs.coderedcorp."
+"com/wagtail-crx/how_to/add_tracking_scripts.html \"target =\" blank \"> "
+"Узнайте разницу между G, UA, GTM и другими идентификаторами отслеживания < / "
+"a > < / p >"
+
+#: coderedcms/models/wagtailsettings_models.py:318
+msgid "Google Analytics"
+msgstr "Анализ Google"
+
+#: coderedcms/models/wagtailsettings_models.py:324
+msgid "Google Tag Manager"
+msgstr "Менеджер тегов Google"
+
+#: coderedcms/models/wagtailsettings_models.py:331
+msgid "Other Tracking Scripts"
+msgstr "Другие сценарии отслеживания"
+
+#: coderedcms/project_template/pro/custom_user/admin.py:21
+#: mysite/users/admin.py:23
+msgid "Personal info"
+msgstr "Личная информация"
+
+#: coderedcms/project_template/pro/custom_user/admin.py:30
+#: mysite/users/admin.py:25
+msgid "Permissions"
+msgstr "Разрешения"
+
+#: coderedcms/project_template/pro/custom_user/admin.py:41
+#: mysite/users/admin.py:36
+msgid "Important dates"
+msgstr "Важные даты"
+
+#: coderedcms/project_template/pro/custom_user/models.py:50
+#: mysite/users/models.py:24
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+#: coderedcms/project_template/pro/custom_user/models.py:53
+msgid "A user with that username already exists."
+msgstr "Пользователь с таким именем уже существует."
+
+#: coderedcms/templates/coderedcms/blocks/film_strip_block.html:23
+#: coderedcms/templates/coderedcms/includes/pagination.html:8
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: coderedcms/templates/coderedcms/blocks/film_strip_block.html:26
+#: coderedcms/templates/coderedcms/includes/pagination.html:16
+msgid "Next"
+msgstr "Следующий"
+
+#: coderedcms/templates/coderedcms/includes/classifier_dropdowns.html:5
+msgid "Filter by"
+msgstr "Фильтр по"
+
+#: coderedcms/templates/coderedcms/includes/classifier_dropdowns.html:11
+msgid "Filter"
+msgstr "Фильтр"
+
+#: coderedcms/templates/coderedcms/includes/classifier_dropdowns.html:12
+#: coderedcms/templates/coderedcms/includes/classifier_nav.html:6
+msgid "All"
+msgstr "Все"
+
+#: coderedcms/templates/coderedcms/includes/form_honeypot.html:3
+msgid "Leave this blank if you are a human"
+msgstr "Оставьте пустым если вы человек"
+
+#: coderedcms/templates/coderedcms/includes/iframe_gmap.html:5
+msgid "Map of"
+msgstr "Карта"
+
+#: coderedcms/templates/coderedcms/includes/pagination.html:12
+msgid "of"
+msgstr ""
+
+#: coderedcms/templates/coderedcms/pages/base.html:146
+msgid "Related"
+msgstr "Связанные"
+
+#: coderedcms/templates/coderedcms/pages/form_page_landing.html:5
+msgid "Thank You"
+msgstr "Большое спасибо."
+
+#: coderedcms/templates/coderedcms/pages/form_page_landing.html:6
+msgid "We have successfully received your submission."
+msgstr "Мы успешно получили ваши материалы."
+
+#: coderedcms/templates/coderedcms/pages/search.html:7
+#: coderedcms/templates/coderedcms/pages/search.html:16
+msgid "Search for"
+msgstr "Поиск"
+
+#: coderedcms/templates/coderedcms/pages/search.html:45
+msgid "All Results"
+msgstr "Все результаты"
+
+#: coderedcms/templates/coderedcms/pages/search.html:80
+msgid "No results found."
+msgstr "Результаты не найдены."
+
+#: coderedcms/templates/coderedcms/widgets/checkbox_classifiers.html:31
+msgid "Organize Pages with Classifiers"
+msgstr "Организация страниц с помощью классификатора"
+
+#: coderedcms/templates/coderedcms/widgets/checkbox_classifiers.html:33
+msgid "Use Classifiers to create custom categories and filters."
+msgstr ""
+"Используйте классификатор для создания пользовательских классов и фильтров."
+
+#: coderedcms/templates/coderedcms/widgets/checkbox_classifiers.html:37
+msgid "Add Classifier"
+msgstr "Добавить классификатор"
+
+#: coderedcms/templates/wagtailadmin/login.html:3
+msgid "Sign in to"
+msgstr "Войти"
+
+#: coderedcms/templates/wagtailcore/password_required.html:8
+msgid "Password Required"
+msgstr "Требуется пароль."
+
+#: coderedcms/templates/wagtailcore/password_required.html:10
+msgid "You need a password to access this page."
+msgstr "Вам нужен пароль для доступа к этой странице."
+
+#: coderedcms/templates/wagtailcore/password_required.html:15
+msgid "Continue"
+msgstr "Продолжить"
+
+#: coderedcms/templates/wagtailforms/list_submissions.html:11
+msgid "Delete selected submissions"
+msgstr "Удалить выбранное представление"
+
+#: coderedcms/templates/wagtailimportexport/import_from_csv.html:3
+#: coderedcms/templates/wagtailimportexport/import_from_csv.html:13
+#: coderedcms/templates/wagtailimportexport/index.html:5
+msgid "Import pages"
+msgstr "Импорт страницы"
+
+#: coderedcms/templates/wagtailimportexport/import_from_csv.html:27
+msgid "IMPORTANT:"
+msgstr "Важно:"
+
+#: coderedcms/templates/wagtailimportexport/import_from_csv.html:28
+msgid "CSV file must be in the correct format before importing."
+msgstr "Перед импортом формат файла CSV должен быть правильным."
+
+#: coderedcms/templates/wagtailimportexport/import_from_csv.html:30
+msgid "Read the importing guide."
+msgstr "Прочитайте руководство по импорту."
+
+#: coderedcms/templates/wagtailimportexport/import_from_csv.html:35
+#: coderedcms/wagtail_hooks.py:128
+msgid "Import"
+msgstr "Импорт"
+
+#: coderedcms/templates/wagtailimportexport/index.html:3
+msgid "Import / export pages"
+msgstr "Страницы импорта / экспорта"
+
+#: coderedcms/templates/wagtailimportexport/index.html:10
+msgid "Import from CSV file"
+msgstr "Импорт из файла CSV"
+
+#: coderedcms/views.py:331
+#, python-format
+msgid "Import failed: %(reason)s"
+msgstr "Ошибка импорта: %(reason)s"
+
+#: coderedcms/views.py:337
+#, fuzzy, python-format
+#| msgid "%(count)s page imported."
+msgid "%(count)s page imported."
+msgid_plural "%(count)s pages imported."
+msgstr[0] "Импорт %(count) страницы."
+msgstr[1] "Импорт %(count) страницы."
+msgstr[2] "Импорт %(count) страницы."
+msgstr[3] "Импорт %(count) страницы."
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:23
+msgid "Label"
+msgstr "Этикетка"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:24
+msgid "Help text"
+msgstr "Текст подсказки"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:58
+msgid "Required"
+msgstr "Требования"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:70
+msgid "Phone"
+msgstr "Телефон"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:75
+msgid "Format"
+msgstr "Формат"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:77
+#: coderedcms/wagtail_flexible_forms/blocks.py:94
+#: coderedcms/wagtail_flexible_forms/blocks.py:103
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:80
+msgid "Text field (single line)"
+msgstr "Текстовое поле (одна строка)"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:99
+msgid "Text field (multi line)"
+msgstr "Текстовое поле (многострочное)"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:108
+msgid "Number field"
+msgstr "Цифровое поле"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:117
+msgid "Checkbox field"
+msgstr "Поля с флажками"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:143
+msgid "Dropdown field"
+msgstr "Выпадающее поле"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:153
+msgid "Checkbox"
+msgstr "Вкладка"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:159
+msgid "Multiple checkboxes field"
+msgstr "Поле с несколькими флажками"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:194
+msgid "Date field"
+msgstr "Поле даты"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:209
+msgid "Time field"
+msgstr "Поле времени"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:236
+msgid "Date+time field"
+msgstr "Дата + время"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:244
+msgid "Image field"
+msgstr "Поле изображения"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:252
+msgid "File field"
+msgstr "Поле Файл"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:272
+msgid "Form fields"
+msgstr "Поле формы"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:280
+msgid "Form step"
+msgstr "Шаги Формы"
+
+#: coderedcms/wagtail_flexible_forms/blocks.py:287
+msgid "Form steps"
+msgstr "Шаги Формы"
+
+#: coderedcms/wagtail_flexible_forms/edit_handlers.py:14
+msgid "{} submissions"
+msgstr "Представление"
+
+#: coderedcms/wagtail_flexible_forms/models.py:98
+#, python-format
+msgid "Step %s"
+msgstr "Шаг% s"
+
+#: coderedcms/wagtail_flexible_forms/models.py:304
+msgid "last modification"
+msgstr "Последнее изменение"
+
+#: coderedcms/wagtail_flexible_forms/models.py:312
+msgid "In progress"
+msgstr "Продолжается"
+
+#: coderedcms/wagtail_flexible_forms/models.py:320
+msgid "form submission"
+msgstr "Представление формы"
+
+#: coderedcms/wagtail_flexible_forms/models.py:321
+msgid "form submissions"
+msgstr "Представление формы"
+
+#: coderedcms/wagtail_flexible_forms/models.py:561
+msgid "Created"
+msgstr "Создать"
+
+#: coderedcms/wagtail_flexible_forms/models.py:562
+msgid "Changed"
+msgstr "Изменить"
+
+#: coderedcms/wagtail_flexible_forms/models.py:563
+msgid "Deleted"
+msgstr "Удалить"
+
+#: coderedcms/wagtail_flexible_forms/models.py:611
+#, python-format
+msgid "“%s” set."
+msgstr "Установить \"% s\"."
+
+#: coderedcms/wagtail_flexible_forms/models.py:613
+#, python-format
+msgid "“%s” set to “%s”."
+msgstr "\"% s\" устанавливается как \"% s\"."
+
+#: coderedcms/wagtail_flexible_forms/models.py:617
+#, python-format
+msgid "“%s” unset."
+msgstr "\"% s\" не установлен."
+
+#: coderedcms/wagtail_flexible_forms/models.py:621
+#, python-format
+msgid "“%s” changed."
+msgstr "\"% s\" Изменено."
+
+#: coderedcms/wagtail_flexible_forms/models.py:624
+#, python-format
+msgid "“%s” changed from “%s” to “%s”."
+msgstr "\"% s\" был изменен с \"% s\" на \"% s\"."
+
+#: coderedcms/wagtail_flexible_forms/models.py:646
+msgid "Submission created."
+msgstr "Создано представление."
+
+#: coderedcms/wagtail_flexible_forms/models.py:648
+msgid "Submission deleted."
+msgstr "Представление удалено."
+
+#: coderedcms/wagtail_flexible_forms/models.py:778
+msgid "Successfully submitted the form."
+msgstr "Форма была успешно представлена."
+
+#: coderedcms/wagtail_flexible_forms/models.py:806
+msgid "Status"
+msgstr "Статус"
+
+#: coderedcms/wagtail_flexible_forms/models.py:807
+msgid "User"
+msgstr "Пользователи"
+
+#: coderedcms/wagtail_flexible_forms/models.py:808
+msgid "First modification"
+msgstr "Первое изменение"
+
+#: coderedcms/wagtail_flexible_forms/models.py:809
+msgid "Last modification"
+msgstr "Последнее изменение"
+
+#: mysite/templates/allauth/layouts/entrance.html:8
+#: mysite/templates/base.html:98
+msgid "Sign In"
+msgstr "Регистрация"
+
+#: mysite/templates/base.html:83
+msgid "My Profile"
+msgstr "Мои Профиль"
+
+#: mysite/templates/base.html:87
+msgid "Sign Out"
+msgstr "Выход"
+
+#: mysite/templates/base.html:93
+msgid "Sign Up"
+msgstr "Регистрация"
+
+#: mysite/users/apps.py:9
+msgid "Users"
+msgstr "Пользователи"
+
+#: mysite/users/forms.py:27 mysite/users/tests/test_forms.py:35
+msgid "This email has already been taken."
+msgstr "Эта электронная почта занята."
+
+#: mysite/users/models.py:21
+msgid "Name of User"
+msgstr "Имя пользователя"
+
+#: mysite/users/tests/test_views.py:72 mysite/users/views.py:24
+msgid "Information successfully updated"
+msgstr "Обновление информации успешно"
+
+#: wagtailseo/blocks.py:34
+msgid "Open Hours"
+msgstr "Время открытия"
+
+#: wagtailseo/blocks.py:39
+msgid "Days"
+msgstr "Дни"
+
+#: wagtailseo/blocks.py:41
+msgid "For late night hours past 23:59, define each day in a separate block."
+msgstr ""
+"Для позднего вечера после 23: 59 каждый день определяется в отдельном блоке."
+
+#: wagtailseo/blocks.py:45
+msgid "Monday"
+msgstr "Понедельник"
+
+#: wagtailseo/blocks.py:46
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: wagtailseo/blocks.py:47
+msgid "Wednesday"
+msgstr "Среда"
+
+#: wagtailseo/blocks.py:48
+msgid "Thursday"
+msgstr "Четверг"
+
+#: wagtailseo/blocks.py:49
+msgid "Friday"
+msgstr "Пятница"
+
+#: wagtailseo/blocks.py:50
+msgid "Saturday"
+msgstr "Суббота"
+
+#: wagtailseo/blocks.py:51
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: wagtailseo/blocks.py:55
+msgid "Opening time"
+msgstr "Время открытия"
+
+#: wagtailseo/blocks.py:58
+msgid "Closing time"
+msgstr "Время закрытия"
+
+#: wagtailseo/blocks.py:104
+msgid "Action"
+msgstr "Действия"
+
+#: wagtailseo/blocks.py:108
+msgid "Action Type"
+msgstr "Тип операции"
+
+#: wagtailseo/blocks.py:113
+msgid "Target URL"
+msgstr "Целевые URL"
+
+#: wagtailseo/blocks.py:116
+msgid "Language"
+msgstr "Язык"
+
+#: wagtailseo/blocks.py:118
+msgid ""
+"If the action is offered in multiple languages, create separate actions for "
+"each language."
+msgstr ""
+"Если операции доступны на нескольких языках, создайте отдельные операции для "
+"каждого языка."
+
+#: wagtailseo/blocks.py:125
+msgid "Result Type"
+msgstr "Тип результата"
+
+#: wagtailseo/blocks.py:126
+msgid "Leave blank for OrderAction"
+msgstr "Оставить OrderAction пустым"
+
+#: wagtailseo/blocks.py:131
+msgid "Result Name"
+msgstr "Имя результата"
+
+#: wagtailseo/blocks.py:132
+msgid "Example: \"Reserve a table\", \"Book an appointment\", etc."
+msgstr "Например: \"Забронировать стол\", \"записаться\" и т.д."
+
+#: wagtailseo/blocks.py:136
+msgid "Additional action markup"
+msgstr "Дополнительные метки операций"
+
+#: wagtailseo/blocks.py:139
+msgid ""
+"Additional JSON-LD inserted into the Action dictionary. Must be properties "
+"of https://schema.org/Action."
+msgstr ""
+"Дополнительный JSON - LD вставляется в словарь Action. Должны быть атрибуты. "
+"https://schema.org/Action."
+
+#: wagtailseo/models.py:64
+msgid "Canonical URL"
+msgstr "Стандартные URL"
+
+#: wagtailseo/models.py:65
+msgid "Leave blank to use the page's URL."
+msgstr "Сохранить URL для пустых доступных страниц."
+
+#: wagtailseo/models.py:73
+msgid "Preview image"
+msgstr "Предварительный просмотр изображений"
+
+#: wagtailseo/models.py:74
+msgid "Shown when linking to this page on social media."
+msgstr "Показывается при ссылке на эту страницу в социальных сетях."
+
+#: wagtailseo/models.py:81
+msgid "Organization type"
+msgstr "Тип организации"
+
+#: wagtailseo/models.py:82
+msgid "If blank, no structured data will be used on this page."
+msgstr ""
+"Если он пуст, на этой странице не будут использоваться структурированные "
+"данные."
+
+#: wagtailseo/models.py:88
+msgid "Organization name"
+msgstr "Название организации"
+
+#: wagtailseo/models.py:89
+msgid "Leave blank to use the site name in Settings > Sites"
+msgstr ""
+"Оставить пустым Можно использовать имя сайта в \"Настройках\" > \"Сайт\""
+
+#: wagtailseo/models.py:97
+msgid "Organization logo"
+msgstr "Логотип организации"
+
+#: wagtailseo/models.py:98
+msgid "Leave blank to use the logo in Settings > Layout > Logo"
+msgstr ""
+"Оставить свободным можно использовать логотип в \"Настройки\" > "
+"\"Раскладка\" > \"Логотип\""
+
+#: wagtailseo/models.py:106
+msgid "Photo of Organization"
+msgstr "Фотографии организации"
+
+#: wagtailseo/models.py:108
+msgid ""
+"A photo of the facility. This photo will be cropped to 1:1, 4:3, and 16:9 "
+"aspect ratios automatically."
+msgstr ""
+"Фотографии объектов. Этот снимок будет автоматически вырезан в соотношении "
+"сторон 1: 1, 4: 3 и 16: 9."
+
+#: wagtailseo/models.py:115
+msgid "Telephone number"
+msgstr "Номер телефона"
+
+#: wagtailseo/models.py:117
+msgid "Include country code for best results. For example: +1-216-555-8000"
+msgstr ""
+"Включение кода страны для получения наилучших результатов. Например: + 1 - "
+"216 - 555 - 8000"
+
+#: wagtailseo/models.py:123
+msgid "Street address"
+msgstr "Адрес улицы"
+
+#: wagtailseo/models.py:125
+msgid "House number and street. For example, 55 Public Square Suite 1710"
+msgstr "Номера домов и улицы. Например, 55 Public Square Suite 1710"
+
+#: wagtailseo/models.py:131
+msgid "City"
+msgstr "Города"
+
+#: wagtailseo/models.py:132
+msgid "City or locality. For example, Cleveland"
+msgstr "Город или район. Например, Кливленд"
+
+#: wagtailseo/models.py:137
+msgid "State"
+msgstr "Штат"
+
+#: wagtailseo/models.py:138
+msgid "State, province, county, or region. For example, OH"
+msgstr "Штат, провинция, округ или территория. Например, OH"
+
+#: wagtailseo/models.py:143
+msgid "Postal code"
+msgstr "Почтовый индекс"
+
+#: wagtailseo/models.py:144
+msgid "Zip or postal code. For example, 44113"
+msgstr "Почтовый индекс или индекс. Например, 44113"
+
+#: wagtailseo/models.py:149
+msgid "Country"
+msgstr "Страна"
+
+#: wagtailseo/models.py:151
+msgid ""
+"For example, USA. Two-letter ISO 3166-1 alpha-2 country code is also "
+"acceptable https://en.wikipedia.org/wiki/ISO_3166-1"
+msgstr ""
+"Например, Соединенные Штаты. Двухбуквенный код страны ISO 3166 - 1 - 2 также "
+"приемлем https://en.wikipedia.org/wiki/ISO_3166-1"
+
+#: wagtailseo/models.py:160
+msgid "Geographic latitude"
+msgstr "Географические широты"
+
+#: wagtailseo/models.py:167
+msgid "Geographic longitude"
+msgstr "Географическая долгота"
+
+#: wagtailseo/models.py:172
+msgid "Hours of operation"
+msgstr "Количество часов работы"
+
+#: wagtailseo/models.py:178
+msgid "Actions"
+msgstr "Действия"
+
+#: wagtailseo/models.py:183
+msgid "Additional Organization markup"
+msgstr "Другие организационные маркеры"
+
+#: wagtailseo/models.py:185
+msgid ""
+"Additional JSON-LD inserted into the Organization dictionary. Must be "
+"properties of https://schema.org/Organization or the selected organization "
+"type."
+msgstr ""
+"Вставьте другие JSON - LD в словарь организации. Должны быть атрибуты. "
+"https://schema.org/Organization Тип выбранной организации."
+
+#: wagtailseo/models.py:529
+msgid "Search and Social Previews"
+msgstr "Поиск и социальный просмотр"
+
+#: wagtailseo/models.py:538
+msgid "Navigation"
+msgstr "Навигация"
+
+#: wagtailseo/models.py:546
+msgid "About Organization Structured Data"
+msgstr "Данные об организационной структуре"
+
+#: wagtailseo/models.py:565
+msgid "Structured Data - Organization"
+msgstr "Структурированные данные - организация"
+
+#: wagtailseo/models.py:583
+msgid "Use Open Graph Markup"
+msgstr "Использовать открытые графические метки"
+
+#: wagtailseo/models.py:585
+msgid ""
+"Show an optimized preview when linking to this site on social media. See "
+"https://ogp.me/"
+msgstr ""
+"Показывать оптимизированный предварительный просмотр при ссылке на этот сайт "
+"в социальных сетях. Увидеть https://ogp.me/"
+
+#: wagtailseo/models.py:591
+msgid "Use Twitter Markup"
+msgstr "Использовать метки Twitter"
+
+#: wagtailseo/models.py:593
+msgid ""
+"Shows content as a card when linking to this site on Twitter. See https://"
+"developer.twitter.com/en/docs/twitter-for-websites/cards"
+msgstr ""
+"Показывать содержимое как карточку при ссылке на этот сайт в Twitter. "
+"Увидеть https://developer.twitter.com/en/docs/twitter-for-websites/cards"
+
+#: wagtailseo/models.py:600
+msgid "Twitter Account"
+msgstr "Твиттер - аккаунт"
+
+#: wagtailseo/models.py:601
+msgid "The @username of the website owner’s Twitter handle."
+msgstr "Название пользователя в Твиттере владельца сайта"
+
+#: wagtailseo/models.py:605
+msgid "Use Structured Data"
+msgstr "Использование структурированных данных"
+
+#: wagtailseo/models.py:607
+msgid ""
+"Optimizes information about your organization for search engines. See "
+"https://schema.org/"
+msgstr ""
+"Оптимизация информации об организациях для поисковых систем. Увидеть https://"
+"schema.org/"
+
+#: wagtailseo/models.py:628
+msgid "Search Engine Optimization"
+msgstr "Поисковая оптимизация"
